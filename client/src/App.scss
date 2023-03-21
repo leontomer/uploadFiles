@@ -1,0 +1,15 @@
+.app {
+  &.background {
+    background: radial-gradient(
+      ellipse at top,
+      rgb(219, 225, 185) 0%,
+      rgb(130, 209, 243) 100%
+    );
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+}
